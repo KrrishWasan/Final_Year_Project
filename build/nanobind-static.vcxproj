@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F86AC3D1-1247-3667-8BC7-AF5020639D98}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>nanobind-static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Final Year Project\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanobind-static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanobind-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Final Year Project\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanobind-static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanobind-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Final Year Project\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanobind-static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanobind-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Final Year Project\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanobind-static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanobind-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/Python312/Include" /external:I "C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/ext/robin_map/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;Py_NO_LINK_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/Python312/Include" /external:I "C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/ext/robin_map/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/Python312/Include" /external:I "C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/ext/robin_map/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/Python312/Include" /external:I "C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/ext/robin_map/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NB_COMPACT_ASSERTIONS;Py_NO_LINK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include;C:\Program Files\Python312\Include;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\ext\robin_map\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Final Year Project\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Final Year Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-file "E:/Final Year Project/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Final Year Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-file "E:/Final Year Project/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Final Year Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-file "E:/Final Year Project/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Final Year Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-file "E:/Final Year Project/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\make_iterator.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nanobind.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_accessor.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_attr.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_call.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_cast.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_class.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_defs.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_descr.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_enums.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_error.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_func.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_lib.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_misc.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_python.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_traits.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_tuple.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\nb_types.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\ndarray.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\trampoline.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\typing.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\operators.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\array.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\bind_map.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\bind_vector.h" />
+    <None Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail">
+    </None>
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail\nb_array.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail\nb_dict.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail\nb_list.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail\nb_set.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\detail\traits.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\filesystem.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\function.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\list.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\map.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\optional.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\pair.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\set.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\shared_ptr.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\string.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\string_view.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\tuple.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\unique_ptr.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\unordered_map.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\unordered_set.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\variant.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\stl\vector.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\eigen\dense.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\include\nanobind\eigen\sparse.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\buffer.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\hash.h" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_internals.h" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_internals.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_func.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_type.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_enum.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_ndarray.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_static_property.cpp" />
+    <ClInclude Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\nb_ft.h" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\common.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\error.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\trampoline.cpp" />
+    <ClCompile Include="C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\src\implicit.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\Final Year Project\build\ZERO_CHECK.vcxproj">
+      <Project>{A73733BF-2DBC-3891-8226-168CBB1AAC66}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

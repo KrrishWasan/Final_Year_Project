@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/cmake/nanobind-config-version.cmake
+C:/Users/krris/AppData/Roaming/Python/Python312/site-packages/nanobind/cmake/nanobind-config.cmake
+E:/Final Year Project/CMakeLists.txt
+E:/Final Year Project/build/CMakeFiles/4.3.2/CMakeCCompiler.cmake
+E:/Final Year Project/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake
+E:/Final Year Project/build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake
+E:/Final Year Project/build/CMakeFiles/4.3.2/CMakeSystem.cmake
+E:/share/cmake-4.3/Modules/CMakeCInformation.cmake
+E:/share/cmake-4.3/Modules/CMakeCXXInformation.cmake
+E:/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake
+E:/share/cmake-4.3/Modules/CMakeGenericSystem.cmake
+E:/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake
+E:/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake
+E:/share/cmake-4.3/Modules/CMakeRCInformation.cmake
+E:/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake
+E:/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake
+E:/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/share/cmake-4.3/Modules/Compiler/MSVC-C.cmake
+E:/share/cmake-4.3/Modules/Compiler/MSVC-CXX.cmake
+E:/share/cmake-4.3/Modules/Compiler/MSVC.cmake
+E:/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+E:/share/cmake-4.3/Modules/FindPackageMessage.cmake
+E:/share/cmake-4.3/Modules/FindPython.cmake
+E:/share/cmake-4.3/Modules/FindPython/Support.cmake
+E:/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake
+E:/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake
+E:/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake
+E:/share/cmake-4.3/Modules/Linker/MSVC-C.cmake
+E:/share/cmake-4.3/Modules/Linker/MSVC-CXX.cmake
+E:/share/cmake-4.3/Modules/Linker/MSVC.cmake
+E:/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC-C.cmake
+E:/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+E:/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake
+E:/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake
+E:/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake
+E:/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake
+E:/share/cmake-4.3/Modules/Platform/Windows.cmake
+E:/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake

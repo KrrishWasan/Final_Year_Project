@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A73733BF-2DBC-3891-8226-168CBB1AAC66}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Final Year Project\build\CMakeFiles\63415410d981633d0bd9b6b498d8a79d\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Final Year Project/build/example.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\CMakeLists.txt;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Final Year Project/build/example.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\CMakeLists.txt;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Final Year Project/build/example.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\CMakeLists.txt;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\bin\cmake.exe "-SE:/Final Year Project" "-BE:/Final Year Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Final Year Project/build/example.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config-version.cmake;C:\Users\krris\AppData\Roaming\Python\Python312\site-packages\nanobind\cmake\nanobind-config.cmake;E:\Final Year Project\CMakeLists.txt;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;E:\Final Year Project\build\CMakeFiles\4.3.2\CMakeSystem.cmake;E:\share\cmake-4.3\Modules\CMakeCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;E:\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;E:\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;E:\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;E:\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;E:\share\cmake-4.3\Modules\CMakeRCInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;E:\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Compiler\MSVC.cmake;E:\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;E:\share\cmake-4.3\Modules\FindPackageMessage.cmake;E:\share\cmake-4.3\Modules\FindPython.cmake;E:\share\cmake-4.3\Modules\FindPython\Support.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Linker\MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;E:\share\cmake-4.3\Modules\Platform\Windows.cmake;E:\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Final Year Project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
