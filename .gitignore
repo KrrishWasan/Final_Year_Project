@@ -1,0 +1,43 @@
+# CMake / build output
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeUserPresets.json
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.sdf
+*.ipch
+x64/
+x86/
+Debug/
+Release/
+
+# Compiled binaries
+*.pyd
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Secrets / local config
+.env
+*.env
+secrets.*

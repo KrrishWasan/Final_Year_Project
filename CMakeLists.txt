@@ -19,4 +19,12 @@ execute_process(
   OUTPUT_STRIP_TRAILING_WHITESPACE OUTPUT_VARIABLE nanobind_ROOT)
 find_package(nanobind CONFIG REQUIRED)
 
-nanobind_add_module(example src/example.cpp)
+nanobind_add_module(
+          example 
+          src/example.cpp
+          src/wifi_control.cpp
+          src/volume_control.cpp
+          src/brightness_control.cpp
+          )
+
+target_link_libraries(example PRIVATE Wlanapi Ole32 wbemuuid)
